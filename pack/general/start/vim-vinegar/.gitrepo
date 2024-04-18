@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:tpope/vim-vinegar.git
+	branch = master
+	commit = bb1bcddf43cfebe05eb565a84ab069b357d0b3d6
+	parent = dd206c36769fc09d0c41d33de33622f000253b6f
+	method = merge
+	cmdver = 0.4.6
