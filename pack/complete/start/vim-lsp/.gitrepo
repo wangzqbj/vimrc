@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:prabirshrestha/vim-lsp.git
+	branch = master
+	commit = f7ccf006df1aefd327c0e2c55cc8632a2db577c1
+	parent = 5b4d4654898300946ce24a10831fbcc70968bd8a
+	method = merge
+	cmdver = 0.4.6
