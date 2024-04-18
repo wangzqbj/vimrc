@@ -1,5 +1,6 @@
 set nocompatible
 
+syntax on
 set backspace=eol,start,indent
 set wildignore=*.swp,*.bak,*.pyc,*.obj,*.o,*.class
 set ttimeout
