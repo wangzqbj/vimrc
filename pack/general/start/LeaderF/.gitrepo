@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:Yggdroot/LeaderF.git
+	branch = master
+	commit = 25fcf74d27e16470bbc5d79fb8859b7876764dc7
+	parent = 6ceecb655f810ed2ae383df99b0f8006c9ff4d1e
+	method = merge
+	cmdver = 0.4.6
