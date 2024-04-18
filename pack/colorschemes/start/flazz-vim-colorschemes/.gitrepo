@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:flazz/vim-colorschemes.git
+	branch = master
+	commit = fd8f122cef604330c96a6a6e434682dbdfb878c9
+	parent = 754d01d1885517b855ed017a38686feb9b049b41
+	method = merge
+	cmdver = 0.4.6
