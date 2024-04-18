@@ -1,7 +1,3 @@
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
-
 let g:lsp_completion_documentation_enabled = 0
 let g:lsp_diagnostics_enabled = 0
 let g:lsp_diagnostics_signs_enabled = 0
@@ -35,3 +31,8 @@ if executable('clangd')
         autocmd FileType objcpp setlocal omnifunc=lsp#complete
     augroup end
 endif
+let g:lsp_log_verbose = 1
+let g:lsp_log_file = expand('~/vim-lsp.log')
+
+" for asyncomplete.vim log
+let g:asyncomplete_log_file = expand('~/asyncomplete.log')
