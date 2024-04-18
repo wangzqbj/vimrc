@@ -29,7 +29,7 @@ function! s:IsAutoFormatEnable()
 	endif
 endfunction
 
-autocmd FileType cpp call s:EnableAuFormat()
+"autocmd FileType cpp call s:EnableAuFormat()
 
 nnoremap <Leader>af :<c-u>call <SID>ToggleAuFormat()<cr>
 nnoremap <Leader>afs :<c-u>call <SID>IsAutoFormatEnable()<cr>
