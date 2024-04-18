@@ -57,3 +57,19 @@ noremap <silent><Leader>0 :tabn 10<cr>
 
 " quit all
 noremap <silent>Q :<c-u>confirm qall<cr>
+
+function! RandomColorScheme()
+	let mypicks = ['biogoo', 'dawn', 'github', 'newspaper']
+	let mypick = mypicks[ str2nr(strftime("%y%m%d"))  % len(mypicks)]
+	execute 'colo' mypick
+endfunction
+
+call RandomColorScheme()
+
+let s:colors = ['biogoo', 'dawn', 'github', 'habiLight']
+let s:colors += ['mayansmoke', 'newspaper', 'nuvola', 'oceanlight', 'peaksea', 'pyte', 'summerfruit256']
+
+function! SwitchColor()
+	call wzqlib#color_switch(s:colors)
+endfunc
+
