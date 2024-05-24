@@ -21,6 +21,7 @@ set incsearch
 set hlsearch
 set laststatus=2
 set nrformats-=octal
+filetype plugin indent on
 
 if has('multi_byte')
 	set encoding=utf-8
